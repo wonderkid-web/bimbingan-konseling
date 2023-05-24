@@ -1,4 +1,4 @@
-import './globals.css'
+import "../app/css/globals.css";
 
 export default function RootLayout({ children }) {
   return (
@@ -8,7 +8,12 @@ export default function RootLayout({ children }) {
         head.js. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
       */}
       <head />
-      <body>{children}</body>
+      <body>
+        <h1 className="text-4xl bg-red-500 text-white text-center py-3">
+          Bimbingan Konseling Putra Anda
+        </h1>
+        {children}
+      </body>
     </html>
-  )
+  );
 }

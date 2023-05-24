@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+td{
+    padding: 5px;
+    border: solid #EF4444 1px;
+}
+
+thead tr:first-child{
+    background-color: #EF4444;
+    color: white;
+    text-align: center;
+}
+
+thead tr:first-child td{
+    border-right: #ddd solid 1px;
+}
+
+thead tr:first-child td:last-child{
+    border-right: solid #EF4444 1px;
+}
+thead tr:first-child td:first{
+    border-right: solid #EF4444 1px;
+}
+
+td:first-child{
+    background-color: #EF4444;
+    border-bottom: #ddd solid 1px;
+    color: white;
+    overflow: hidden;
+    text-align: center;
+}
